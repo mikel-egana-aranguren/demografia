@@ -1,0 +1,10 @@
+
+<http://my-domain.com/id/Alice> a <http://xmlns.com/foaf/0.1/Person> ;
+	<http://xmlns.com/foaf/0.1/gender> "female" ;
+	<http://xmlns.com/foaf/0.1/age> "34"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://xmlns.com/foaf/0.1/name> "Alice" .
+
+<http://my-domain.com/id/Bob> a <http://xmlns.com/foaf/0.1/Person> ;
+	<http://xmlns.com/foaf/0.1/gender> "male" ;
+	<http://xmlns.com/foaf/0.1/age> "63"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://xmlns.com/foaf/0.1/name> "Bob" .
