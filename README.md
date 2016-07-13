@@ -10,6 +10,8 @@ lein grafter run demografia.core/convert-persons-data-to-graph ./data/example-da
 
 lein grafter run demografia.core/convert-ataun-to-data ./data/ataun2014.csv ./output/output-ataun.csv
 
+lein grafter run demografia.core/convert-ataun-data-to-graph ./data/ataun-coma-result-2014.csv ./output/output-ataun.ttl
+
 ### REPL
 
 => (demografia.core/convert-persons-data-to-graph "./data/example-data.csv")

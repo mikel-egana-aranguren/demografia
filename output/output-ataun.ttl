@@ -1,0 +1,280 @@
+
+<http://opendata.eurohelp.es/resource/LLODIO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/EJIDO--EL-> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/MONTIJO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/VALLE-DE-LA-SERENA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ESTELLENCHS> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BARTZELONA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/MONTCADA-I-REIXAC> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BURGOS> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/MIRANDA-DE-EBRO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/CILLEROS> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ROBLEDILLO-DE-GATA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/PUERTO-REAL> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/POZOBLANCO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/MUROS> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ORTIGUEIRA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ABALTZISKETA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/AMEZKETA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ANDOAIN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ANTZUOLA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ARAMA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ARETXABALETA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ASTEASU> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ATAUN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/AZKOITIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/AZPEITIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BEASAIN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BELAUNTZA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BERASTEGI> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BERROBI> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BIDANIA-GOIATZ> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ZEGAMA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ZERAIN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ZIZURKIL> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ELGOIBAR> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/EZKIO-ITSASO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/GAINTZA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/GABIRIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/GETARIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/HERNANI> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/IBARRA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/IDIAZABAL> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/IKAZTEGIETA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ITSASONDO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LAZKAO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LEABURU-TXARAMA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LEGAZPI> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LEGORRETA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LEZO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LIZARTZA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ARRASATE-MONDRAGON> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/MUTILOA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/OLABERRIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/OREXA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ORIO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ORMAIZTEGI> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/OIARTZUN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ERREZIL> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/DONOSTIA-SAN-SEBASTIAN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/SEGURA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/TOLOSA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/USURBIL> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BERGARA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/VILLABONA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ORDIZIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/URRETXU> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ZALDIBIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ZARAUTZ> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ZUMARRAGA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ZUMAIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LASARTE-ORIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BALIARRAIN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ALTZAGA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LEON> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/PARAMO-DEL-SIL> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/MADRIL> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LORCA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ALTSASU-ALSASUA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ANDOSILLA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ARBIZU> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ARRONIZ> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ARRUAZU> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BETELU> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ETXARRI-ARANATZ> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ELGORRIAGA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ERGOIEN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ESTELLA-LIZARRA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/FALCES> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/GALAR> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/PAMPLONA-IRU�A> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BERA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BARA�AIN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LEKUNBERRI> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ATAUN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/CUALEDRO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/SAN-CIBRAO-DAS-VI�AS> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/TEIXEIRA--A-> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BUENOS-AIRES> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/PALENTZIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/KUWAIT> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/PUERTO-DE-LA-CRUZ> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/SANTANDER> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/TARRAGONA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/TORTOSA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/PATERNA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/VALENTZIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BARAKALDO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BILBO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ELORRIO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/GALDAKAO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/GORLIZ> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/GETXO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LEMOA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LEKEITIO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/MENDATA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/PORTUGALETE> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/SANTURTZI> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/NIGUELLA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ZARAGOZA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BAYONA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/DROGHEDA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/VILAR-DE-PERDICES> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/GEISLINGEN> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/RUSCOVA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LUCERNA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BANOVCE> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/KUWAIT> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BLIDA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/ALEJANDRIA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/AITSI> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/IDAHO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/MARIANAO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/LA-UNION> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/-HONDURAS-> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/CHINANDEGA> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/BEJUCO-BLANCO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/CATRILO> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/DR.JUAN-R.-CHAVES> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/CARACAS> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/KARIMNAGAR> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://opendata.eurohelp.es/resource/TEHRATHUM> a <http://xmlns.com/foaf/0.1/Person> .
