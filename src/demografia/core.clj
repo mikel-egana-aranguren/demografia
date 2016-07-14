@@ -7,27 +7,36 @@
                               test-dataset test-dataset ]]
             [grafter.pipeline :refer [declare-pipeline]]
             
+            [grafter.rdf]
+            [grafter.rdf.io]
             [grafter.rdf :refer [s]]
             [grafter.rdf.protocols :refer [->Quad]]
+            [grafter.rdf.protocols :refer [ITripleWriteable]]
             [grafter.rdf.templater :refer [graph]]
+            [grafter.rdf.io :refer [rdf-serializer]]
+            [grafter.rdf.formats :refer [rdf-nquads rdf-turtle]]
+            [grafter.vocabularies.qb :refer :all]
+            
             [grafter.pipeline :refer [declare-pipeline]]
             [grafter.vocabularies.rdf :refer :all]
             [grafter.vocabularies.foaf :refer :all]
             
-            [demografia.transform :refer [->integer]]
-            [demografia.transform :refer [rep]]
-            [demografia.transform :refer [urlify]]
+            [demografia.transform :refer [->integer observation-uri urlify]]
+            
             [demografia.prefix :refer [base-id base-graph base-vocab base-data]]
     )
   )
 
-
+;"http://opendata.eurohelp.es/property/observation_location"
 (def make-graph
-  (graph-fn [{:keys [a c jaio-herria-uri herria-uri j k]}]
-            (graph (base-graph "ataun")
-                   [jaio-herria-uri
-                    [rdf:a foaf:Person]
-                    ])))
+  (graph-fn [{:keys [a c i j k jaio-herria-uri herria-uri observation-uri]}]
+            (graph (base-graph "ataun-demografia-2014")
+                   [observation-uri
+                    [rdf:a qb:Observation]
+                    ["http://opendata.eurohelp.es/property/observation_location" herria-uri]]
+                   )
+            )
+  )
 
 
 (defn convert-ataun-to-data
@@ -40,6 +49,7 @@
       (mapc {:i urlify})
       (derive-column :jaio-herria-uri [:i] base-id)
       (derive-column :herria-uri [:c] base-id)
+      (derive-column :observation-uri [:a :c :i :j :k] observation-uri)
       )
   )
 
@@ -57,11 +67,7 @@
 (declare-pipeline convert-ataun-data-to-graph [Dataset -> (Seq Statement)]
                   {dataset "The data file to convert into a graph."})
 
-(print (convert-ataun-data-to-graph "./data/ataun-coma-result-2014.csv"))
-
-
-
-
+;(print (convert-ataun-data-to-graph "./data/ataun-coma-result-2014.csv"))
 
 ;(read-dataset "./data/example-data.csv")
 ;(println (convert-ataun-to-data "./data/ataun2014.csv"))

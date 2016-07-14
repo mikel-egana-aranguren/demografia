@@ -1,4 +1,9 @@
-(ns demografia.transform)
+(ns demografia.transform
+  (:require 
+    [clojure.string :as st]
+    [demografia.prefix :refer [base-id base-graph base-vocab base-data]]
+    )
+  )
 
 ;;; You can specify transformation functions in this namespace for use
 ;;; within the pipeline.
@@ -8,8 +13,14 @@
   [s]
   (Integer/parseInt s))
 
-(defn rep [sr] 
-  (clojure.string/replace sr "20" "22"))
-
 (defn urlify [sr] 
-  (clojure.string/replace sr #"\(|\)|\s|\/" "-"))
+  (st/replace (st/trim sr) #"\(|\)|\s|\/|\." "-"))
+
+(defn observation-uri [a b c d e] 
+  (base-id 
+    (str "Observation/" (urlify 
+                         (str a "-" b "-" c "-" d "-" e)
+                               )
+         )
+    )
+  )
