@@ -1,420 +1,572 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LLODIO-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-EJIDO--EL--0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MONTIJO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-VALLE-DE-LA-SERENA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ESTELLENCHS-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BARTZELONA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MONTCADA-I-REIXAC-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BURGOS-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MIRANDA-DE-EBRO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CILLEROS-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ROBLEDILLO-DE-GATA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PUERTO-REAL-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-POZOBLANCO-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MUROS-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ORTIGUEIRA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ABALTZISKETA-3-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "3"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-AMEZKETA-4-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "4"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ANDOAIN-3-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "3"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ANTZUOLA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARAMA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARETXABALETA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ASTEASU-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
+
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ATAUN-478-571> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "478"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LLODIO-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-AZKOITIA-1-4> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-EJIDO--EL--0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-AZPEITIA-5-6> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "5"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MONTIJO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BEASAIN-45-39> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "45"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-VALLE-DE-LA-SERENA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BELAUNTZA-1-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ESTELLENCHS-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BERASTEGI-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BARTZELONA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BERROBI-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MONTCADA-I-REIXAC-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BIDANIA-GOIATZ-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BURGOS-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZEGAMA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MIRANDA-DE-EBRO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZERAIN-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CILLEROS-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZIZURKIL-2-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ROBLEDILLO-DE-GATA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ELGOIBAR-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PUERTO-REAL-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-EZKIO-ITSASO-2-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-POZOBLANCO-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GAINTZA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MUROS-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GABIRIA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ORTIGUEIRA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GETARIA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ABALTZISKETA-3-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-HERNANI-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-AMEZKETA-4-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-IBARRA-3-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "3"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ANDOAIN-3-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-IDIAZABAL-7-3> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "7"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ANTZUOLA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-IKAZTEGIETA-3-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "3"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARAMA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ITSASONDO-8-3> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "8"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARETXABALETA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LAZKAO-21-36> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "21"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ASTEASU-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEABURU-TXARAMA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ATAUN-478-571> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEGAZPI-1-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-AZKOITIA-1-4> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEGORRETA-4-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "4"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-AZPEITIA-5-6> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEZO-2-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BEASAIN-45-39> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LIZARTZA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BELAUNTZA-1-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARRASATE-MONDRAGON-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BERASTEGI-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MUTILOA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BERROBI-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-OLABERRIA-2-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BIDANIA-GOIATZ-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-OREXA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZEGAMA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ORIO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZERAIN-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ORMAIZTEGI-4-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "4"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZIZURKIL-2-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-OIARTZUN-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ELGOIBAR-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ERREZIL-2-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-EZKIO-ITSASO-2-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-DONOSTIA-SAN-SEBASTIAN-42-44> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "42"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GAINTZA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-SEGURA-2-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GABIRIA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TOLOSA-10-22> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "10"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GETARIA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-USURBIL-1-3> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-HERNANI-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BERGARA-2-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-IBARRA-3-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-VILLABONA-4-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "4"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-IDIAZABAL-7-3> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ORDIZIA-14-20> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "14"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-IKAZTEGIETA-3-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-URRETXU-3-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "3"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ITSASONDO-8-3> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZALDIBIA-9-5> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "9"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LAZKAO-21-36> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZARAUTZ-3-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "3"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEABURU-TXARAMA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZUMARRAGA-2-5> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEGAZPI-1-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZUMAIA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEGORRETA-4-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LASARTE-ORIA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEZO-2-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BALIARRAIN-1-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LIZARTZA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ALTZAGA-2-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARRASATE-MONDRAGON-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEON-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MUTILOA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PARAMO-DEL-SIL-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-OLABERRIA-2-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MADRIL-2-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-OREXA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LORCA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ORIO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ALTSASU-ALSASUA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ORMAIZTEGI-4-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ANDOSILLA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-OIARTZUN-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARBIZU-2-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ERREZIL-2-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARRONIZ-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-DONOSTIA-SAN-SEBASTIAN-42-44> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARRUAZU-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-SEGURA-2-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BETELU-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TOLOSA-10-22> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ETXARRI-ARANATZ-1-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-USURBIL-1-3> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ELGORRIAGA-0-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BERGARA-2-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ERGOIEN-2-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-VILLABONA-4-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ESTELLA-LIZARRA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ORDIZIA-14-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-FALCES-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-URRETXU-3-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GALAR-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZALDIBIA-9-5> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PAMPLONA-IRU�A-7-3> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "7"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZARAUTZ-3-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BERA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZUMARRAGA-2-5> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BARA�AIN-0-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZUMAIA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEKUNBERRI-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LASARTE-ORIA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ATAUN-1-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BALIARRAIN-1-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CUALEDRO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ALTZAGA-2-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-SAN-CIBRAO-DAS-VI�AS-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEON-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TEIXEIRA--A--0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PARAMO-DEL-SIL-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BUENOS-AIRES-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MADRIL-2-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PALENTZIA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LORCA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-KUWAIT-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ALTSASU-ALSASUA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PUERTO-DE-LA-CRUZ-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ANDOSILLA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-SANTANDER-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARBIZU-2-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TARRAGONA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARRONIZ-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TORTOSA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ARRUAZU-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PATERNA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BETELU-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-VALENTZIA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ETXARRI-ARANATZ-1-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BARAKALDO-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ELGORRIAGA-0-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BILBO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ERGOIEN-2-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ELORRIO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ESTELLA-LIZARRA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GALDAKAO-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-FALCES-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GORLIZ-0-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GALAR-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GETXO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PAMPLONA-IRU�A-7-3> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEMOA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BERA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEKEITIO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BARA�AIN-0-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MENDATA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEKUNBERRI-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PORTUGALETE-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ATAUN-1-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-SANTURTZI-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CUALEDRO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-NIGUELLA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-SAN-CIBRAO-DAS-VI�AS-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZARAGOZA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TEIXEIRA--A--0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BAYONA-2-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BUENOS-AIRES-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-DROGHEDA-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PALENTZIA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-VILAR-DE-PERDICES-2-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-KUWAIT-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GEISLINGEN-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PUERTO-DE-LA-CRUZ-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-RUSCOVA-4-8> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "4"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-SANTANDER-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LUCERNA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TARRAGONA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BANOVCE-0-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TORTOSA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-KUWAIT-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PATERNA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BLIDA-1-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-VALENTZIA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ALEJANDRIA-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BARAKALDO-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-AITSI-6-6> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "6"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BILBO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-IDAHO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ELORRIO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MARIANAO-3-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "3"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GALDAKAO-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LA-UNION-2-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GORLIZ-0-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN--HONDURAS--5-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "5"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GETXO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CHINANDEGA-2-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEMOA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BEJUCO-BLANCO-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LEKEITIO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CATRILO-3-5> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "3"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MENDATA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-DR-JUAN-R--CHAVES-1-0> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "1"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-PORTUGALETE-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CARACAS-0-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-SANTURTZI-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-KARIMNAGAR-2-1> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "2"^^xsd:int .
 
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-NIGUELLA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ZARAGOZA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BAYONA-2-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-DROGHEDA-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-VILAR-DE-PERDICES-2-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-GEISLINGEN-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-RUSCOVA-4-8> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LUCERNA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BANOVCE-0-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-KUWAIT-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BLIDA-1-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-ALEJANDRIA-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-AITSI-6-6> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-IDAHO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-MARIANAO-3-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-LA-UNION-2-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN--HONDURAS--5-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CHINANDEGA-2-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-BEJUCO-BLANCO-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CATRILO-3-5> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-DR-JUAN-R--CHAVES-1-0> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-CARACAS-0-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-KARIMNAGAR-2-1> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
-
-<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TEHRATHUM-0-2> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> .
+<http://opendata.eurohelp.es/resource/Observation/2014-ATAUN-TEHRATHUM-0-2> a qb:Observation ;
+	<http://opendata.eurohelp.es/property/observation_location> <http://opendata.eurohelp.es/resource/ATAUN> ;
+	<http://opendata.eurohelp.es/property/emakume_kopurua> "0"^^xsd:int .

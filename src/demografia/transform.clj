@@ -1,7 +1,7 @@
 (ns demografia.transform
   (:require 
     [clojure.string :as st]
-    [demografia.prefix :refer [base-id base-graph base-vocab base-data]]
+    [demografia.prefix :refer [base-id base-graph base-vocab base-data base-domain]]
     )
   )
 
@@ -24,3 +24,9 @@
          )
     )
   )
+
+(def base-observation-location (base-domain "/property/observation_location"))
+
+(def base-emakume-kopurua (base-domain "/property/emakume_kopurua"))
+
+(def base-gizon-kopurua (base-domain "/property/gizon_kopurua"))
