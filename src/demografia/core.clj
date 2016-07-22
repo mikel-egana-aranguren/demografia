@@ -30,53 +30,46 @@
     )
   )
 
-;"http://opendata.eurohelp.es/property/observation_location"
+
+; https://groups.google.com/d/msg/grafter-users/2W_c5ud6pYE/ARWpnUL_AwAJ
+
+;This is the difference between :keywords and strings I was refering too; sorry I should have suggested the solution to you though!  As I said this is an unfortunate design decision that we've inherited from incanter... basically Incanter tries to hide the difference between keywords and strings; so a lot of the time they will seem interchangeable.  This is great, until they're not interchangeable!  One place they're not interchangeable is in the destructuring inside graph-fn...  If you have string keys for a specifc column you will need to destructure them like so:
+;
+;(graph-fn [{:keys [keyword-strings go-here ,,,] :strs [string-keys go-here-like-this]}]
+;  ,,,)
+
+
 (def make-graph
   (graph-fn [{:keys [URTEA UDALARENIZENA HERRIARENIZENA EMAKUMEKOPURUA GIZONKOPURUA jaio-herria-uri herria-uri observation-uri]
-              :as row
-              }]
-            
-            (do 
-            (println row)
-            
+             :as row }]
             (graph (base-graph "ataun-demografia-2014")
                    [observation-uri
                       [rdf:a qb:Observation]
-                  [base-observation-location herria-uri]
-;                      [base-emakume-kopurua (->integer "10")] 
+                      [base-observation-location herria-uri] 
                       [base-emakume-kopurua (->integer (row "EMAKUMEKOPURUA"))] 
-                      ]
-                   )
-            )
+                      [base-gizon-kopurua (->integer (row "GIZONKOPURUA"))]
+                      ["http://dbpedia.org/property/birthPlace" jaio-herria-uri]
+                      ["http://www.w3.org/2006/time#year" (->integer (row "URTEA"))]
+                    ]
+                   [herria-uri
+                    [rdf:a "http://dbpedia.org/class/yago/MunicipalitiesInGipuzkoa"]
+                    ]
+             )
             )
   )
-
-;                      [base-emakume-kopurua (literal "10" "http://www.w3.org/2001/XMLSchema#int")]
-;                      [base-emakume-kopurua (s 
-;                                              (stringify j) 
-;                                              "http://www.w3.org/2001/XMLSchema#int")]
-
 
 (defn convert-ataun-to-data
   "Pipeline to convert tabular Ataun demografia data into a different tabular format."
   [data-file]
   (-> (read-dataset data-file)
       (make-dataset move-first-row-to-header)
-;      (drop-rows 1)
-
-;      (columns [:a :c :i :j :k])
-      
       (columns [:URTEA :UDALARENIZENA :HERRIARENIZENA :EMAKUMEKOPURUA :GIZONKOPURUA])
-      
-      
       (mapc {:HERRIARENIZENA urlify})
       (derive-column :jaio-herria-uri [:HERRIARENIZENA] base-id)
       (derive-column :herria-uri [:UDALARENIZENA] base-id)
       (derive-column :observation-uri [:URTEA :UDALARENIZENA :HERRIARENIZENA :EMAKUMEKOPURUA :GIZONKOPURUA] observation-uri)
       )
   )
-
-;      (make-dataset move-first-row-to-header) ; Column names with white spaces won't work
 
 (declare-pipeline convert-ataun-to-data [Dataset -> Dataset]
                   {data-file "Demografia ataun"})
